@@ -77,7 +77,7 @@
 ## 🕹 Game Development
 
 <div align="center">
-    <i class="devicon-unity-plain" height="40"></i>
+    <i class="devicon-unity-plain"></i>
     <i class="devicon-unrealengine-original" height="40"></i>
     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/godot/godot-original.svg" height="40" />
     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/blender/blender-original.svg" height="40" />
