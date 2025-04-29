@@ -1,100 +1,96 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Pong Game</title>
-  <style>
-    body { 
-      margin: 0; 
-      display: flex; 
-      justify-content: center; 
-      align-items: center; 
-      flex-direction: column;
-      height: 100vh; 
-      background-color: #000; 
-      color: white; 
-      font-family: Arial, sans-serif;
-    }
-    canvas { border: 1px solid #fff; }
-    .links {
-      margin-top: 20px;
-      font-size: 18px;
-      color: #fff;
-    }
-    .links a {
-      color: #4CAF50; 
-      text-decoration: none;
-    }
-    .links a:hover {
-      text-decoration: underline;
-    }
-    #top-langs {
-      margin-top: 20px;
-      display: flex;
-      justify-content: center;
-    }
-    #top-langs img {
-      border: 1px solid #fff;
-    }
-  </style>
-</head>
-<body>
+# Adventure Game - AI Narrator 🏞️
 
-<canvas id="pong" width="600" height="400"></canvas>
+Welcome to my **interactive adventure**! 🚀
 
-  <!-- Links Section -->
-  <div class="links">
-    <p>Visit my <a href="https://gilkan.github.io/" target="_blank">GitHub.io</a> for more!</p>
-  </div>
+_AI Narrator:_  
+You find yourself standing at the entrance of an ancient cave. A cold breeze flows out from the dark depths. The sky above is dimly lit by stars. The air smells faintly of pine and something... else. What will you do?
 
-  <!-- Top Languages Chart Section -->
-  <div id="top-langs">
-    <img loading="lazy" height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Gilkan&layout=compact&langs_count=8&theme=dracula"/>
-  </div>
+1. **Enter the cave**
+2. **Walk around the cave to explore**
+3. **Turn back and return home**
 
-  <script>
-    const canvas = document.getElementById("pong");
-    const context = canvas.getContext("2d");
+---
 
-    const paddleWidth = 10, paddleHeight = 100, ballRadius = 10;
-    let leftPaddleY = canvas.height / 2 - paddleHeight / 2, rightPaddleY = canvas.height / 2 - paddleHeight / 2;
-    let ballX = canvas.width / 2, ballY = canvas.height / 2, ballSpeedX = 5, ballSpeedY = 4;
+## 1. Enter the Cave ⛏️
 
-    const revealText = (text, positionX, positionY) => {
-      context.font = "20px Arial";
-      context.fillText(text, positionX, positionY);
-    }
+_AI Narrator:_  
+You step into the dark cave. The path ahead is narrow, but you hear the sound of running water in the distance. Suddenly, you see two paths ahead.
 
-    const update = () => {
-      // Ball movement
-      ballX += ballSpeedX;
-      ballY += ballSpeedY;
+1. **Follow the sound of water**
+2. **Explore the dark tunnel to the right**
+3. **Shout to see if anyone is there**
 
-      if (ballY + ballRadius > canvas.height || ballY - ballRadius < 0) ballSpeedY = -ballSpeedY;
+[Back to the start](#adventure-game---ai-narrator)
 
-      // Paddle movement
-      document.addEventListener('mousemove', (e) => {
-        leftPaddleY = e.clientY - canvas.offsetTop - paddleHeight / 2;
-      });
+---
 
-      // Ball collision with paddles
-      if (ballX - ballRadius < paddleWidth && ballY > leftPaddleY && ballY < leftPaddleY + paddleHeight) ballSpeedX = -ballSpeedX;
-      if (ballX + ballRadius > canvas.width - paddleWidth && ballY > rightPaddleY && ballY < rightPaddleY + paddleHeight) ballSpeedX = -ballSpeedX;
+## 2. Walk Around the Cave 🌲
 
-      // Reveal text on background (just as an example, this is static for now)
-      context.clearRect(0, 0, canvas.width, canvas.height); // Clear the canvas each frame
-      revealText("Pedro Vaz", 250, 200); // Position text based on game state
+_AI Narrator:_  
+You walk around the entrance and discover a hidden path leading up the mountain. It's a steep climb, but you feel determined to see where it leads.
 
-      // Draw paddles and ball
-      context.fillRect(0, leftPaddleY, paddleWidth, paddleHeight); // Left paddle
-      context.fillRect(canvas.width - paddleWidth, rightPaddleY, paddleWidth, paddleHeight); // Right paddle
-      context.beginPath();
-      context.arc(ballX, ballY, ballRadius, 0, Math.PI * 2);
-      context.fill();
-    }
+1. **Climb the mountain path**
+2. **Look for a hidden entrance nearby**
+3. **Sit and meditate to focus your mind**
 
-    setInterval(update, 1000 / 60); // 60 FPS update rate
-  </script>
-</body>
-</html>
+[Back to the start](#adventure-game---ai-narrator)
+
+---
+
+## 3. Return Home 🏡
+
+_AI Narrator:_  
+You decide it's best to head back. As you turn, you notice a strange figure standing at the edge of the forest. They beckon you closer.
+
+1. **Approach the figure**
+2. **Run back home quickly**
+3. **Ask the figure if they need help**
+
+[Back to the start](#adventure-game---ai-narrator)
+
+---
+
+# 🌐 Check Out My Projects
+
+If you're ready for a deeper adventure, check out my personal website and explore more about what I'm building!
+
+- [Visit My Website](https://yourusername.github.io) 🌍
+
+---
+
+# 📚 Top Languages
+
+Here are the top languages I use in my GitHub projects. They're like the **"skills"** I have in this grand adventure!
+
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=YourUsername&layout=compact&langs_count=8&theme=dracula)
+
+---
+
+# 🛠️ Tools & Technologies
+
+Here are the tools and technologies I wield in my coding adventures:
+
+- ![VSCode](https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg) VSCode
+- ![Git](https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg) Git
+- ![MySQL](https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg) MySQL
+- ![React](https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg) React
+- ![Python](https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg) Python
+- ![Java](https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg) Java
+- ![HTML5](https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg) HTML5
+- ![CSS3](https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg) CSS3
+
+---
+
+# 📈 GitHub Stats
+
+Let's see how my journey is going with some stats and progress bars! These represent my contributions and **coding adventures** across my repositories.
+
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=YourUsername&show_icons=true&theme=dracula)
+
+---
+
+# 🎮 Ready for More?
+
+If you enjoyed this **choose-your-own-adventure** style game, why not start your next quest in the world of **coding and development**?
+
+Feel free to explore my repositories and projects at [GitHub](https://github.com/YourUsername) and discover the magic behind each one. ✨
