@@ -92,6 +92,27 @@
 
 ---
 
-# 📚 Top Languages
+# 📊 Top Languages & Skills Badges
 
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Gilkan&layout=compact&langs_count=8&theme=dracula)
+<div align="center">
+  <!-- Language badges -->
+  ![C#](https://img.shields.io/badge/C%23-Expert-blue?style=flat-square&logo=csharp&logoColor=white)
+  ![Java](https://img.shields.io/badge/Java-Advanced-red?style=flat-square&logo=java&logoColor=white)
+  ![Python](https://img.shields.io/badge/Python-Advanced-yellow?style=flat-square&logo=python&logoColor=white)
+  ![C++](https://img.shields.io/badge/C++-Intermediate-blue?style=flat-square&logo=cplusplus&logoColor=white)
+  ![PHP](https://img.shields.io/badge/PHP-Intermediate-purple?style=flat-square&logo=php&logoColor=white)
+  ![TypeScript](https://img.shields.io/badge/TypeScript-Intermediate-blue?style=flat-square&logo=typescript&logoColor=white)
+  ![JavaScript](https://img.shields.io/badge/JavaScript-Intermediate-yellow?style=flat-square&logo=javascript&logoColor=white)
+  ![SQL](https://img.shields.io/badge/SQL-Advanced-blue?style=flat-square&logo=mysql&logoColor=white)
+</div>
+
+---
+
+# 🎲 Fun & Interactive
+
+- **Mini-game:** [Click to Play a Guess the Number Game](https://gilkan.github.io/mini-game/)  
+- **Animated Daily Message:**  
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=20&duration=3000&pause=500&center=true&vCenter=true&width=500&height=40&lines=Code+is+life!;Keep+Learning+Every+Day!;💻🚀 Enjoy+Coding!" alt="Typing animation">
+
+---
+
