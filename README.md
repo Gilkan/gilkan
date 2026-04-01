@@ -94,7 +94,7 @@
 
 # 📚 Top Languages
 
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Gilkan&layout=compact&langs_count=8&theme=dracula)
+![Top Languages](https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=Gilkan&layout=compact&langs_count=8&theme=dracula)
 
 ---
 
